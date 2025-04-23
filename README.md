@@ -1,5 +1,6 @@
-# Multi-GNN
-This repository contains all models and adaptations needed to run Multi-GNN for Anti-Money Laundering. The repository consists of four Graph Neural Network model classes ([GIN](https://arxiv.org/abs/1810.00826), [GAT](https://arxiv.org/abs/1710.10903), [PNA](https://arxiv.org/abs/2004.05718), [RGCN](https://arxiv.org/abs/1703.06103)) and the below-described model adaptations utilized for financial crime detection in [Egressy et al.](https://arxiv.org/abs/2306.11586). Note that this repository solely focuses on the Anti-Money Laundering use case. This repository has been created for experiments in [Provably Powerful Graph Neural Networks for Directed Multigraphs](https://arxiv.org/abs/2306.11586) [AAAI 2024] and [Realistic Synthetic Financial Transactions for Anti-Money Laundering Models](https://arxiv.org/abs/2306.16424) [NeurIPS 2023].
+## Notes
+Some files in the original project are modified by our group for research purpose.
+If you have any questions, please contact Vu Anh Tuan (vuanhtuan1407@gmail.com).
 
 ## Setup
 To use the repository, you first need to install the conda environment via 
@@ -56,7 +57,3 @@ There are several arguments that can be set for additional functionality. Here's
 ## Licence
 Apache License
 Version 2.0, January 2004
-
-## Notes
-Some files of this project are modified by our group for research purpose.
-If you have any questions, please contact Vu Anh Tuan (vuanhtuan1407@gmail.com).
